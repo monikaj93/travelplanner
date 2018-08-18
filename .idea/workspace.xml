@@ -63,40 +63,41 @@
     <session id="1583781581">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="28" />
+          <entry key="java" value="67" />
           <entry key="jsp" value="18" />
           <entry key="properties" value="58" />
-          <entry key="xml" value="20" />
+          <entry key="xml" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="28" />
+          <entry key="JAVA" value="67" />
           <entry key="JSP" value="18" />
           <entry key="Properties" value="58" />
-          <entry key="XML" value="20" />
+          <entry key="XML" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="4" />
-          <entry key="jsp" value="1" />
+          <entry key="jsp" value="2" />
           <entry key="properties" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="4" />
-          <entry key="JSP" value="1" />
+          <entry key="JSP" value="2" />
           <entry key="Properties" value="1" />
         </counts>
       </usages-collector>
@@ -107,32 +108,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/travelplanner-application/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="59" selection-end-column="12" />
+            <state relative-caret-position="901">
+              <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application-travelplanner-application.properties">
+        <entry file="file://$PROJECT_DIR$/travelplanner-application/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="34" selection-start-column="34" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp">
+        <entry file="file://$PROJECT_DIR$/travelplanner-application/src/main/webapp/WEB-INF/jsp/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
               <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
@@ -150,20 +142,25 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+            <state relative-caret-position="255">
+              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/travelplanner/user/Application.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/travelplanner-application/src/main/java/com/travelplanner/user/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+            <state relative-caret-position="102">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -171,11 +168,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/travelplanner/user/LoginController.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/travelplanner-application/src/main/java/com/travelplanner/user/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="306">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -194,6 +191,7 @@
     <findStrings>
       <find>hello</find>
       <find>\</find>
+      <find>user</find>
     </findStrings>
     <replaceStrings>
       <replace>/</replace>
@@ -215,12 +213,13 @@
         <option value="$PROJECT_DIR$/travelplanner-user/src/main/java/com/travelplanner/user/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/travelplanner-application/pom.xml" />
         <option value="$PROJECT_DIR$/travelplanner-application/src/main/webapp/WEB-INF/jsp/login.jsp" />
-        <option value="$PROJECT_DIR$/travelplanner-application/src/main/java/com/travelplanner/user/LoginController.java" />
-        <option value="$PROJECT_DIR$/travelplanner-application/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/travelplanner-application/src/main/resources/application-travelplanner-application.properties" />
-        <option value="$PROJECT_DIR$/travelplanner-application/src/main/java/com/travelplanner/user/Application.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/travelplanner-application/src/main/java/com/travelplanner/Application.java" />
+        <option value="$PROJECT_DIR$/travelplanner-application/src/main/java/com/travelplanner/user/Application.java" />
+        <option value="$PROJECT_DIR$/travelplanner-application/src/main/java/com/travelplanner/user/LoginController.java" />
+        <option value="$PROJECT_DIR$/travelplanner-application/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -258,7 +257,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -269,17 +268,25 @@
             <path>
               <item name="travelplanneronemodule" type="b2602c69:ProjectViewProjectNode" />
               <item name="travelplanneronemodule" type="462c0819:PsiDirectoryNode" />
+              <item name="travelplanner-application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="travelplanneronemodule" type="b2602c69:ProjectViewProjectNode" />
+              <item name="travelplanneronemodule" type="462c0819:PsiDirectoryNode" />
+              <item name="travelplanner-application" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="travelplanneronemodule" type="b2602c69:ProjectViewProjectNode" />
               <item name="travelplanneronemodule" type="462c0819:PsiDirectoryNode" />
+              <item name="travelplanner-application" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="travelplanneronemodule" type="b2602c69:ProjectViewProjectNode" />
               <item name="travelplanneronemodule" type="462c0819:PsiDirectoryNode" />
+              <item name="travelplanner-application" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -287,6 +294,7 @@
             <path>
               <item name="travelplanneronemodule" type="b2602c69:ProjectViewProjectNode" />
               <item name="travelplanneronemodule" type="462c0819:PsiDirectoryNode" />
+              <item name="travelplanner-application" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -295,6 +303,7 @@
             <path>
               <item name="travelplanneronemodule" type="b2602c69:ProjectViewProjectNode" />
               <item name="travelplanneronemodule" type="462c0819:PsiDirectoryNode" />
+              <item name="travelplanner-application" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -303,12 +312,9 @@
               <item name="travelplanneronemodule" type="b2602c69:ProjectViewProjectNode" />
               <item name="travelplanneronemodule" type="462c0819:PsiDirectoryNode" />
               <item name="travelplanner-application" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="travelplanneronemodule" type="b2602c69:ProjectViewProjectNode" />
-              <item name="travelplanneronemodule" type="462c0819:PsiDirectoryNode" />
-              <item name="travelplanner-application" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="travelplanneronemodule" type="b2602c69:ProjectViewProjectNode" />
@@ -316,6 +322,8 @@
               <item name="travelplanner-application" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="travelplanneronemodule" type="b2602c69:ProjectViewProjectNode" />
@@ -323,13 +331,15 @@
               <item name="travelplanner-application" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -340,13 +350,6 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.excludes" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\monik\IdeaProjects\travelplanneronemodule\src\main" />
-      <recent name="C:\Users\monik\IdeaProjects\travelplanneronemodule\src\main\resources" />
-      <recent name="C:\Users\monik\IdeaProjects\travelplanner\travelplanner-application\src\main\resources" />
-      <recent name="C:\Users\monik\IdeaProjects\travelplanner\travelplanner-user\src\main\resources" />
-      <recent name="C:\Users\monik\IdeaProjects\travelplanner\src\main\resources" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -354,6 +357,13 @@
       <recent name="C:\Users\monik\IdeaProjects\travelplanneronemodule\src\main" />
       <recent name="C:\Users\monik\IdeaProjects\travelplanner\travelplanner-application\src\main" />
       <recent name="C:\Users\monik\IdeaProjects\travelplanner\travelplanner-user\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\monik\IdeaProjects\travelplanneronemodule\travelplanner-application\src\main" />
+      <recent name="C:\Users\monik\IdeaProjects\travelplanneronemodule\travelplanner-application\src\main\resources" />
+      <recent name="C:\Users\monik\IdeaProjects\travelplanneronemodule\src\main" />
+      <recent name="C:\Users\monik\IdeaProjects\travelplanneronemodule\src\main\resources" />
+      <recent name="C:\Users\monik\IdeaProjects\travelplanner\travelplanner-application\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -421,15 +431,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2590604" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26644295" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33475178" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33475178" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -460,68 +471,64 @@
     <entry file="file://$PROJECT_DIR$/travelplanner-user/src/main/webapp/WEB-INF/jsp/login.jsp" />
     <entry file="file://$PROJECT_DIR$/travelplanner-application/src/main/java/com/travelplanner/user/service/LoginService.java" />
     <entry file="file://$PROJECT_DIR$/travelplanner-user/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-travelplanner-application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/travelplanner-application/travelplannerapplication.iml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travelplanner-application/travelplanner-application.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travelplanner.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travelplanner-application/src/main/webapp/WEB-INF/jsp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/travelplanner-application/travelplannerapplication.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travelplanner.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/travelplanner/user/Application.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/travelplanner/user/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travelplanner-application/travelplanner-application.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" selection-start-column="34" selection-end-column="34" />
+        <state relative-caret-position="255">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/travelplanner-application/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="59" selection-end-column="12" />
+        <state relative-caret-position="901">
+          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/travelplanner-application/src/main/java/com/travelplanner/user/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travelplanner-application/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travelplanner-application/src/main/java/com/travelplanner/user/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
