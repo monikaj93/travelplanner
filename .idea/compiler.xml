@@ -6,13 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="travelplanner-application" />
+        <module name="travelplanner" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="travelplanner" target="1.5" />
+      <module name="travelplanner" target="1.8" />
       <module name="travelplanner-application" target="1.8" />
-      <module name="travelplanner-user" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
