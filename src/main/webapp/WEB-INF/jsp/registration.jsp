@@ -4,7 +4,7 @@
 
     <head>
         <title>Registration Form</title>
-        <link href="<c:url value="/resources/static/css/style.css" />" rel="stylesheet">
+        <link href="<c:url value="/resources/static/css/login_page_style.css" />" rel="stylesheet">
 
     </head>
     <body>

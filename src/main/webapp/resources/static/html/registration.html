@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="/resources/static/css/login_page_style.css">
+
+    </head>
+    <body>
+        <div class="login-page">
+            <div class="form">
+               <form method="POST" action="registration">
+                    <h2>Registration Form</h2>
+                    <input type="text" path="name" placeholder="name" required/>
+                    <input type="email" path="email" placeholder="email" required/>
+                    <input type="password" path="password" placeholder="password" pattern=".{8,20}" title="Please use 8 to 20 characters" required/>
+                    <button type="submit">create</button>
+                    <p class="message">Already registered? <a href="login">Sign In</a></p>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

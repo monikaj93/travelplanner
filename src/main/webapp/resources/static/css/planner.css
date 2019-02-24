@@ -1,0 +1,153 @@
+body {
+
+}
+
+
+
+.sidebar {
+  height: 90vh;
+  width: 15%;
+  float:left;
+  background-color: #6C9FC9;
+  padding-top: 20px;
+}
+
+.sidebar a {
+  background-color: #6C9FC9; /* Grey background color */
+  color: white; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+  text-align: center;
+}
+
+.travel-info {
+  height: 10vh;
+  width: 85%;
+  float: right;
+  background-color: white;
+}
+
+.planner {
+  height: 80vh;
+  width: 85%;
+  float: right;
+  background-color: white;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: baseline; */
+}
+
+.header div {
+  flex-grow: 1;
+  align-self: center;
+  flex-basis: 0;
+  justify-content: flex-start;
+}
+
+/* .date {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+} */
+
+.calendar_button {
+  float:none;
+  padding: 2px;
+}
+
+.to_the_right {
+  float:right;
+}
+
+.chevrons {
+  padding-left: 10px;
+}
+
+.calendar_table {
+  border: 0 none;
+  border-collapse: separate;
+  border-spacing: 0;
+  display: table;
+  height: 100%;
+  margin: 0;
+  table-layout: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 10px;
+
+}
+
+.calendar_table {
+  border: 1px solid grey;
+  border-bottom: none;
+}
+
+.calendar_table th {
+  border-top: none;
+  border-left: none;
+}
+
+.calendar_table td {
+  /* height: 70px;
+  vertical-align: top;
+  width: 36px; */
+  border-top: solid 1px grey;
+  border-bottom: solid 1px grey;
+  vertical-align: top;
+  text-align: left;
+  padding: 7px;
+}
+
+
+
+.calendar-wrap {
+  box-sizing: border-box;
+  height: 450px;
+}
+
+.container-table {
+  display: inline-flex;
+    position: relative;
+    vertical-align: top;
+    height: 450px;
+}
+
+.bg-info {
+  background-color: pink;
+}
+
+/* .time-cells-wrap {
+  overflow:auto;
+}
+
+.time-cells-wrap td {
+  padding: 0px;
+  border: 0px;
+}
+
+.row-week-calendar {
+  border-bottom: solid 0.5px grey;
+} */
+
+/* .scroll-body {
+  display: table-caption;
+  caption-side: bottom;
+  overflow:auto;
+  height:100%;
+
+}
+
+
+.scroll-header tr{
+  display:block;
+} */
