@@ -1,19 +1,17 @@
-package com.travelplanner.service;
+package com.travelplanner.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-import javax.xml.ws.RequestWrapper;
-
 @Controller
-public class ProfileController {
+public class PlannerController {
 
-    @RequestMapping(value = "profile", method = RequestMethod.GET)
-    public ModelAndView profile() {
+    @RequestMapping(value = "planner", method = RequestMethod.GET)
+    public ModelAndView planner() {
         ModelAndView modelAndView = new ModelAndView();
-        modelAndView.setViewName("profile");
+        modelAndView.setViewName("planner");
         return modelAndView;
     }
 }

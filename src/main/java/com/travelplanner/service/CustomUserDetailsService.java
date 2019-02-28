@@ -1,7 +1,7 @@
 package com.travelplanner.service;
 
 import com.travelplanner.model.AppUser;
-import com.travelplanner.repository.UserRepository;
+import com.travelplanner.repository.AppUserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -13,7 +13,7 @@ import javax.annotation.PostConstruct;
 public class CustomUserDetailsService implements UserDetailsService {
     @Autowired
     private WebApplicationContext applicationContext;
-    private UserRepository userRepository;
+    private AppUserRepository userRepository;
 
     public CustomUserDetailsService() {
         super();
@@ -21,7 +21,7 @@ public class CustomUserDetailsService implements UserDetailsService {
 
     @PostConstruct
     public void completeSetup() {
-        userRepository = applicationContext.getBean(UserRepository.class);
+        userRepository = applicationContext.getBean(AppUserRepository.class);
     }
 
     @Override

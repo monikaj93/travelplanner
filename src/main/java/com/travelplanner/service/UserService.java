@@ -1,7 +1,7 @@
 package com.travelplanner.service;
 
 import com.travelplanner.model.AppUser;
-import com.travelplanner.repository.UserRepository;
+import com.travelplanner.repository.AppUserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -10,11 +10,11 @@ import org.springframework.stereotype.Service;
 @Service("userService")
 public class UserService {
 
-    private UserRepository userRepository;
+    private AppUserRepository userRepository;
     private BCryptPasswordEncoder bCryptPasswordEncoder;
 
     @Autowired
-    public UserService(UserRepository userRepository,
+    public UserService(AppUserRepository userRepository,
                        BCryptPasswordEncoder bCryptPasswordEncoder
                        ) {
         this.userRepository = userRepository;

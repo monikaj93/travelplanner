@@ -1,8 +1,9 @@
-package com.travelplanner.service;
+package com.travelplanner.controller;
 
 import javax.validation.Valid;
 
 import com.travelplanner.model.AppUser;
+import com.travelplanner.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;

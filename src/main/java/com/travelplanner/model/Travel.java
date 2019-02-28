@@ -27,4 +27,7 @@ public class Travel {
 
     @Size(max=240, message = "Description is too long")
     String description;
+
+//    @JoinColumn(name="user_id", nullable=false)
+//    private AppUser appuser;
 }
