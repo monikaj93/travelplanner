@@ -17,9 +17,9 @@ public class Travel {
     @NotEmpty(message = "Please provide destination")
     String destination;
 
-    @NotEmpty(message = "Please provide start date")
+    //@NotEmpty(message = "Please provide start date")
     Date startDate;
-    @NotEmpty(message = "Please provide end date")
+    //@NotEmpty(message = "Please provide end date")
     Date endDate;
 
     @Size(max=120, message = "Name is too long")
@@ -27,4 +27,7 @@ public class Travel {
 
     @Size(max=240, message = "Description is too long")
     String description;
+
+//    @JoinColumn(name="user_id", nullable=false)
+//    private AppUser appuser;
 }

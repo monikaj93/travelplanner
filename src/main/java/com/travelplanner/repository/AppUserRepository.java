@@ -1,10 +1,10 @@
 package com.travelplanner.repository;
 
-import com.travelplanner.model.User;
+import com.travelplanner.model.AppUser;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository("userRepository")
-public interface UserRepository extends JpaRepository<User, Long> {
-    User findByEmail(String email);
+public interface AppUserRepository extends JpaRepository<AppUser, Long> {
+    AppUser findByEmail(String email);
 }

@@ -10,7 +10,7 @@
     <body>
         <div class="login-page">
             <div class="form">
-               <form:form method="POST" action="registration" modelAttribute="user">
+               <form:form method="POST" action="registration" modelAttribute="appUser">
                     <h2>Registration Form</h2>
                     <form:input type="text" path="name" placeholder="name"/>
                     <form:errors cssClass="error-message" path="name" />

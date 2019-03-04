@@ -1,18 +1,22 @@
 package com.travelplanner.model;
 
 
+
 import javax.persistence.*;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.Size;
 
 @Entity
-@Table(name = "user")
-public class User {
+@Table(name = "appuser")
+public class AppUser {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "travel_id")
+    private Travel travel;
 
     @NotEmpty(message = "Please provide your name")
     private String name;
@@ -20,11 +24,13 @@ public class User {
     @Email(message = "Please provide valid email")
     private String email;
     @NotEmpty(message = "Please provide password")
-    @Size(min=8, max=20, message="Password is incorrect, please use 8 to 20 characters")
+    //@Size(min=8, max=20, message="Password is incorrect, please use 8 to 20 characters")
     private String password;
     //private String passwordConfirm;
     private int active;
 
+//    @OneToMany(mappedBy="appuser")
+//    private Set<Travel> travel;
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
