@@ -11,13 +11,7 @@
   </head>
   <body>
 
-    <div class="navbar">
-      <a id="hover1" href="home"><i class="fa fa-fw fa-home"></i> Home</a>
-      <a id="hover2" href="planner"><i class="fa fa-fw fa-search"></i> Planner</a>
-      <a id="hover3" href="travels"><i class="fa fa-fw fa-envelope"></i> Travels</a>
-      <a id="hover1" href="profile"><i class="fa fa-fw fa-user"></i> Profile</a>
-      <a href="logout">Logout</a>
-    </div>
+    <%@include file="_navbar.jsp"%>
 
     <div class="content">
       <div class="sidebar">

@@ -9,29 +9,24 @@
     <title>Traveler</title>
   </head>
   <body>
-    <div class="navbar">
-      <a id="hover1" href="home"><i class="fa fa-fw fa-home"></i> Home</a>
-      <a id="hover2" href="planner"><i class="fa fa-fw fa-search"></i> Planner</a>
-      <a id="hover3" href="travels"><i class="fa fa-fw fa-envelope"></i> Travels</a> <!--statystyki, ile krai odwiedzonych TODO -->
-      <a id="hover1" href="profile"><i class="fa fa-fw fa-user"></i> Profile</a>
-      <a href="logout">Logout</a>
-    </div>
 
-<div class="content">
-    <div class="board">
+    <%@include file="_navbar.jsp"%>
 
-      <div class="profile">
-        <h3>Profile data</h3>
-        Name: <input type="text" name="country" value="Norway" readonly><br>
-        Surname: <input type="text" name="country" value="Norway" readonly><br>
-        Country: <input type="text" name="country" value="Norway" readonly><br>
-        Date of birth: <input type="text" name="country" value="Norway" readonly><br>
-        Country: <input type="text" name="country" value="Norway" readonly><br>
-        Country: <input type="text" name="country" value="Norway" readonly><br>
-      </div>
+    <div class="content">
+        <div class="board">
 
-      <button type="button">Edit</button>
-    </div>
+          <div class="profile">
+            <h3>Profile data</h3>
+            Name: <input type="text" name="country" value="Norway" readonly><br>
+            Surname: <input type="text" name="country" value="Norway" readonly><br>
+            Country: <input type="text" name="country" value="Norway" readonly><br>
+            Date of birth: <input type="text" name="country" value="Norway" readonly><br>
+            Country: <input type="text" name="country" value="Norway" readonly><br>
+            Country: <input type="text" name="country" value="Norway" readonly><br>
+          </div>
+
+        <button type="button">Edit</button>
+        </div>
     </div>
   </body>
 </html>
